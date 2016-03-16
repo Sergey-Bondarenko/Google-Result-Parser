@@ -7,11 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Sergey Bondarenko
+ * Google Result Parser returns a titles list of the first page google search   
+ * @authot Sergey Bondarenko
+ * @version 1.0
  */
 public class Parser {
     public static void main(String[] args) {
-
+		
         if (args.length == 0) {
             System.out.println("Invalid argument. HELP: Example: Google_Result_Parser [query]");
             System.exit(1);
